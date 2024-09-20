@@ -12,6 +12,6 @@ import SpamReport from "./components/SpamReport.jsx";
 import SpamForm from "./components/SpamForm.jsx";
 import config from "../config/config.js";
 import Delete from "./components/Delete.jsx";
-import Logout from "./components/logout.jsx";
+import Logout from "./components/Logout.jsx";
 import { uploadToCloudinary ,fetchData,postData} from "./utils/utils.js";
 export {Login,Input,Button,Register,OtpValidator,Header,Contacts,AddContact,EditContact,login,Logout,logout,getContacts,SpamReport,SpamForm,config,Delete,uploadToCloudinary,fetchData,postData}
